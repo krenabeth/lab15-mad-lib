@@ -5,12 +5,12 @@ app.config(function($routeProvider) {
 	.when('/form',
 	{
 		templateUrl: 'form.html',
-		controller: 'routeCtrl'	
+		controller: 'formController'	
 	})
 	.when ('/madLib',
 	{
 		templateUrl: 'madLib.html',
-		controller: 'routeCtrl'
+		controller: 'madLibController'
 	})
 	.otherwise({ redirectTo: '/'})
 });

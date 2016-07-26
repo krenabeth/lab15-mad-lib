@@ -7,16 +7,16 @@ app.factory('madFactory', function() {
 	function saveObject(madLib){
 		//set emptyObj to equal madLib the name of the object
 		emptyObj = madLib;
-		console.log(emptyObj);
 		//whenver saveObject runs anything that pass through function is going to be stored inside of empty object
 	};
-	function returnObj() {
-		return emptyObj; // which is now full of the inputs
+	function returnObject() {
+		return madLibObject; // which is now full of the inputs
 	};
 
+// saveObject is a property with the value saveObject which is a function
+// property : function
 	return {
 		saveObject: saveObject,
 		returnObject: returnObject
 	}
 });
-
