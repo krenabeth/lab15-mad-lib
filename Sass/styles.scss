@@ -1,0 +1,45 @@
+@import 'formStyles';
+
+span {
+	font-style: bold;
+	color: purple;
+	font-family: Comic, sans-serif;
+	text-decoration: underline;
+}
+
+* {
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+}
+
+#top {
+	text-align: center;
+	border-radius: 0 0 15px 15px;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 2px 4px green; 
+	font-size: 300%;
+}
+
+.main {
+	display: inline-block;
+	margin-left: 30%;
+}
+
+a {
+	color: green;
+}
+img {
+	float: right;
+	margin-right: 20%;
+}
+body {
+	padding: 10px;
+}
+
+.line {
+	bottom-border: 3px solid black;
+	width: 75%;
+}
