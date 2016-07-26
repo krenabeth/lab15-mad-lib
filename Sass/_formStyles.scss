@@ -1,16 +1,16 @@
 form, .madlib {
-	float: left;
+	margin: 0 auto;
 	text-align: right;
-	margin: 20px;
-	background-color: #fffcb9;
+	background-color: #cea31d;
 	padding: 10px;
 	width: 250px;
 	border-radius: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid black;
 }
-img {
-	margin: 20px;
-	padding: 10px;
-	float: right;
+.madlib {
+	text-align: left;
 }
 
 #submit {

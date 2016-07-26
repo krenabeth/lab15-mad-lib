@@ -1,16 +1,16 @@
 form, .madlib {
-  float: left;
+  margin: 0 auto;
   text-align: right;
-  margin: 20px;
-  background-color: #fffcb9;
+  background-color: #cea31d;
   padding: 10px;
   width: 250px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid black; }
 
-img {
-  margin: 20px;
-  padding: 10px;
-  float: right; }
+.madlib {
+  text-align: left; }
 
 #submit {
   padding: 5px 10px;
@@ -25,39 +25,36 @@ img {
 #submit:hover {
   opacity: .8; }
 
+* {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif; }
+
 span {
   font-style: bold;
   color: purple;
   font-family: Comic, sans-serif;
   text-decoration: underline; }
 
-* {
-  text-decoration: none;
-  font-family: Helvetica, sans-serif; }
+span.up {
+  text-transform: capitalize; }
 
 #top {
-  text-align: center;
-  border-radius: 0 0 15px 15px;
   text-align: center; }
 
 h1 {
   text-shadow: 2px 2px 4px green;
   font-size: 300%; }
 
-.main {
-  display: inline-block;
-  margin-left: 30%; }
-
 a {
   color: green; }
 
-img {
-  float: right;
-  margin-right: 20%; }
-
-body {
-  padding: 10px; }
+.main {
+  background-image: url("http://ak-hdl.buzzfed.com/static/2014-02/enhanced/webdr05/20/1/enhanced-buzz-20547-1392877126-16.jpg");
+  width: 65%;
+  margin: auto; }
 
 .line {
-  bottom-border: 3px solid black;
-  width: 75%; }
+  border-bottom: 3px solid black;
+  width: 75%;
+  margin: auto;
+  height: 25px; }
