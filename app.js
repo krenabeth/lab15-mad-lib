@@ -2,7 +2,7 @@ var app = angular.module("myMod", ["ngRoute"]);
 
 app.config(function($routeProvider) {
 	$routeProvider
-	.when('/form',
+	.when('/',
 	{
 		templateUrl: 'form.html',
 		controller: 'formController'	
