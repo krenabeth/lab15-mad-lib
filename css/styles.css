@@ -1,0 +1,10 @@
+body {
+  padding: 5px;
+  margin: auto; }
+
+span {
+  color: purple;
+  font-decoration: underline purple; }
+
+input {
+  padding: 3px; }
